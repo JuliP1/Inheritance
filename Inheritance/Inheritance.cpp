@@ -20,9 +20,27 @@ int main()
 	cin >> manufacturer;
 	cout << "Input vehicle year: ";
 	cin >> year;
-	//input data and class
+	//input data for vehicle
 	Vehicle vehicle(manufacturer, year);
 	//call vehicle display info function
-	vehicle.displayInfo();
+	cout << endl << "Vehicle Information" << endl;
+	vehicle.displayInfo(); 
+	
+	cout << "Input car manufacturer: ";
+	cin >> manufacturer;
+	cout << "Input car year: ";
+	cin >> year;
+	cout << "Input amount of car doors: ";
+	cin >> doors;
+	//input data for car
+	Car car(doors);
+	car.setManufacturer(manufacturer);
+	car.setYear(year);
+	//display car info
+	cout << endl << "Car Information" << endl;
+	car.displayInfo();
+
+
+
 }
 
