@@ -8,7 +8,7 @@ class Truck : public Vehicle
 {
 private:
 	int towingCapacity;
-private:
+public:
 	Truck();
 	Truck(int);
 	void setCapacity(int);

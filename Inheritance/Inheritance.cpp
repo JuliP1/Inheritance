@@ -15,7 +15,7 @@ int main()
 {
 	//declare variables
 	string manufacturer;
-	int year, doors, towingCapacity;
+	int year, doors, capacity;
 	cout << "Input vehicle manufacturer: ";
 	cin >> manufacturer;
 	cout << "Input vehicle year: ";
@@ -40,7 +40,18 @@ int main()
 	cout << endl << "Car Information" << endl;
 	car.displayInfo();
 
-
-
+	cout << "Input truck manufacturer: ";
+	cin >> manufacturer;
+	cout << "Input truck year: ";
+	cin >> year;
+	cout << "Input towing capacity: ";
+	cin >> capacity;
+	//input data for truck
+	Truck truck(capacity);
+	truck.setManufacturer(manufacturer);
+	truck.setYear(year);
+	//display truck info
+	cout << endl << "Truck information" << endl;
+	truck.displayInfo();
 }
 
