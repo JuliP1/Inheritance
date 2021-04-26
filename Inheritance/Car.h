@@ -13,5 +13,7 @@ public:
 	Car();
 	Car(int);
 	void displayInfo();
+	void setDoors(int);
+	int getDoors();
 };
 #endif

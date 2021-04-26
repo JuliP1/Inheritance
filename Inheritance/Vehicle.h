@@ -15,6 +15,10 @@ public:
 	Vehicle();
 	Vehicle(string, int);
 	//member functions
+	void setManufacturer(string);
+	void setYear(int);
+	string getManufacturer();
+	int getYear();
 	void displayInfo();
 };
 #endif

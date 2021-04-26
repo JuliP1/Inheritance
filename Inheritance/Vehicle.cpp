@@ -18,3 +18,23 @@ void Vehicle::displayInfo()
 	cout << "Manufacturer: " << manufacturer;
 	cout << "year: " << year;
 }
+
+void Vehicle::setManufacturer(string x)
+{
+	manufacturer = x;
+}
+
+void Vehicle::setYear(int x)
+{
+	year = x;
+}
+
+string Vehicle::getManufacturer()
+{
+	return manufacturer;
+}
+
+int Vehicle::getYear()
+{
+	return year;
+}

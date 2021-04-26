@@ -17,3 +17,14 @@ using namespace std;
 		Vehicle::displayInfo();
 		cout << "Doors: " << doors << endl;
 	}
+
+	void Car::setDoors(int x)
+	{
+		doors = x;
+	}
+
+	int Car::getDoors()
+	{
+		return doors;
+	}
+

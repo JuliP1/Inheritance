@@ -11,6 +11,8 @@ private:
 private:
 	Truck();
 	Truck(int);
+	void setCapacity(int);
+	int getCapacity();
 	void displayInfo();
 };
 #endif

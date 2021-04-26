@@ -12,6 +12,16 @@ Truck::Truck(int x)
 	towingCapacity = x;
 }
 
+void Truck::setCapacity(int x)
+{
+	towingCapacity = x;
+}
+
+int Truck::getCapacity()
+{
+	return towingCapacity;
+}
+
 void Truck::displayInfo()
 {
 	Vehicle::displayInfo();
