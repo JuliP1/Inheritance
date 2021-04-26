@@ -1,3 +1,5 @@
+#ifndef CAR_H
+#define CAR_H
 #include <string>
 #include <iostream>
 #include "Vehicle.h"
@@ -12,3 +14,4 @@ public:
 	Car(int);
 	void displayInfo();
 };
+#endif
